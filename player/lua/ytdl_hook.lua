@@ -48,7 +48,7 @@ local tag_list = {
     ["dislike_count"]   = "dislikes",
     -- these titles tend to be a bit too long, so hide them on the terminal
     -- (default --display-tags does not include this name)
-    ["description"]     = "ytdl_description",
+    -- ["description"]     = "ytdl_description",
     -- "title" is handled by force-media-title
 }
 
