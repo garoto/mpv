@@ -295,7 +295,7 @@ void mp_write_watch_later_conf(struct MPContext *mpctx)
 
     mp_mk_config_dir(mpctx->global, mpctx->cached_watch_later_configdir);
 
-    MP_INFO(mpctx, "Saving state.\n");
+    MP_VERBOSE(mpctx, "Saving state.\n");
 
     FILE *file = fopen(conffile, "wb");
     if (!file)
