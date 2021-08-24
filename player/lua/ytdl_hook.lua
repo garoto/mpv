@@ -42,6 +42,10 @@ end
 local tag_list = {
     ["uploader"]        = "uploader",
     ["channel_url"]     = "channel_url",
+    ["upload_date"]     = "upload date",
+    ["view_count"]      = "views",
+    ["like_count"]      = "likes",
+    ["dislike_count"]   = "dislikes",
     -- these titles tend to be a bit too long, so hide them on the terminal
     -- (default --display-tags does not include this name)
     ["description"]     = "ytdl_description",

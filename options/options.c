@@ -1042,7 +1042,8 @@ static const struct MPOpts mp_default_opts = {
         "Artist", "Album", "Album_Artist", "Comment", "Composer",
         "Date", "Description", "Genre", "Performer", "Rating",
         "Series", "Title", "Track", "icy-title", "service_name",
-        "Uploader", "Channel_URL",
+        "Uploader", "Channel_URL", "Upload Date", "Views",
+        "Likes", "Dislikes",
         NULL
     },
 
